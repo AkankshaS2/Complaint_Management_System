@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+env/
+venv/
+ENV/
+
+# ML Artifacts
+model.h5
+tokenizer.pkl
+encoder.pkl
+
+# Dataset
+dataBalanced.xlsx
+dataset.csv
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# IDEs
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
