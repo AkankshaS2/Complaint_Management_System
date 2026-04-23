@@ -199,13 +199,12 @@ curl -X POST http://127.0.0.1:5000/predict \
 
 ## ⚠️ Current Limitation
 
-* Model is trained **every time the server starts**, which increases startup time.
+* Dataset is not large enough. A larger dataset will improve model performance.
 
 ---
 
 ## 🚀 Future Improvements
 
-* 💾 Save & load trained model (`.h5`)
 * ⚡ Faster API response (no retraining)
 * 📱 Flutter mobile app integration
 * 🗄️ Database (MySQL / Firebase)
